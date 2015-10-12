@@ -84,8 +84,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/local/opt/nvm/nvm.sh
-alias vim='nvim'
-ln ~/dotfiles/.vimrc ~/.vimrc
+alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 alias gs='git status'
 alias gpp='git pull && git push'
 alias ga='git add'
+alias gch='git checkout'
+alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
+alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
+
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
