@@ -92,6 +92,8 @@ alias ga='git add'
 alias gch='git checkout'
 alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
+alias chromenosec='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --allow-file-access-from-files'
+
 
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
