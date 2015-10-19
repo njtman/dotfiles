@@ -84,8 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/local/opt/nvm/nvm.sh
-alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
-alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+alias vim='nvim'
+alias v='nvim'
 alias gs='git status'
 alias gpp='git pull && git push'
 alias ga='git add'
