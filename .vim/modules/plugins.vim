@@ -6,7 +6,7 @@ if !1 | finish | endif
 call plug#begin()
 
 " Load plugin list for vim-plug to manage.
-execute 'source' Dot('plugins.vim')
+execute 'source' Dot('plugin-list.vim')
 
 " Lock in the plugin list.
 call plug#end()
