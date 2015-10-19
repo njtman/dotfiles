@@ -1,24 +1,11 @@
-set number
+" Vim configuration largely inspired by Olical/dotfiles
+source ~/dotfiles/.vim/bootstrap.vim
 
-call plug#begin('~/.vim/plugged')
+if filereadable("~/.vimrc_local")
+    source ~/.vimrc_local
+endif
 
-" Ag plugin for file searching
-Plug 'https://github.com/rking/ag.vim.git'
-
-" Plugin for js beautification
-Plug 'maksimr/vim-jsbeautify'
-Plug 'scrooloose/syntastic'
-
-" Add plugins to &runtimepath
-call plug#end()
-
-" Syntastic Config
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+set cursorline
+set colorcolumn=80
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
