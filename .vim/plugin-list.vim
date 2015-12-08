@@ -4,7 +4,7 @@
 " Ag plugin for file searching
 Plug 'https://github.com/rking/ag.vim.git'
  
-" Plugin for js beautification
+" JavaScript Plugins
 Plug 'maksimr/vim-jsbeautify'
 Plug 'scrooloose/syntastic'       
 
