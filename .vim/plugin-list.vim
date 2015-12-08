@@ -8,6 +8,10 @@ Plug 'https://github.com/rking/ag.vim.git'
 Plug 'maksimr/vim-jsbeautify'
 Plug 'einars/js-beautify'
 Plug 'scrooloose/syntastic'       
+Plug 'pangloss/vim-javascript'
+
+" CSS Plugins
+" Plug 'skammer/vim-css-color'
 
 " Color Schemes
 Plug 'altercation/vim-colors-solarized'
