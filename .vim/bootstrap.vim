@@ -11,4 +11,14 @@ for file in split(glob(Dot('modules/*.vim')), '\n')
   execute 'source' file
 endfor
 
+" Show line numbers
 set number
+
+" Enable true color support
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+" Initiate Pathogen
+call pathogen#infect()
+
+" Set two space width 
+set shiftwidth=2
