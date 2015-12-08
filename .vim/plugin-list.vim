@@ -22,3 +22,11 @@ Plug 'vim-scripts/Zenburn'
 Plug 'tpope/vim-fugitive'
 Plug 'bling/vim-airline'
 
+" Plugin Management
+Plug 'tpope/vim-pathogen'
+
+" Code formatting
+Plug 'Chiel92/vim-autoformat'
+
+" String Manipulation
+Plug 'tpope/vim-surround'
