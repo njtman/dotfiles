@@ -6,6 +6,7 @@ Plug 'https://github.com/rking/ag.vim.git'
  
 " JavaScript Plugins
 Plug 'maksimr/vim-jsbeautify'
+Plug 'einars/js-beautify'
 Plug 'scrooloose/syntastic'       
 
 " Color Schemes
