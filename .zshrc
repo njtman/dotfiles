@@ -95,7 +95,8 @@ alias gl='git log -p'
 alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
 alias chromenosec='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --allow-file-access-from-files'
-
-
+alias provprofile='security cms -D -i'
+alias t='take'
+alias rmd='rm -rf'
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
