@@ -89,6 +89,7 @@ alias v='nvim'
 alias gs='git status'
 alias gpp='git pull && git push'
 alias ga='git add'
+alias gap='git add -p'
 alias gch='git checkout'
 alias gr='git reset --hard HEAD^'
 alias gl='git log -p'
@@ -100,3 +101,4 @@ alias t='take'
 alias rmd='rm -rf'
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+
