@@ -30,3 +30,7 @@ Plug 'Chiel92/vim-autoformat'
 
 " String Manipulation
 Plug 'tpope/vim-surround'
+
+" File utilities
+Plug 'ctrlpvim/ctrlp.vim'
+
