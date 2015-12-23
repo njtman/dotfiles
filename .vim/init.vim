@@ -1,1 +1,1 @@
-/Users/mobiledev/dotfiles/.vimrc
+../.vimrc
