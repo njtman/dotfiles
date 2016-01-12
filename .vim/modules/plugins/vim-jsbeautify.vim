@@ -1,9 +1,10 @@
 " Configure jsbeautify plugin
-  map <c-f> :call JsBeautify()<cr>
-   " or
-  autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
-  " for html
-  autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
-  " for css or scss
-  autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr> 
+autocmd FileType javascript noremap <buffer> <Leader>b :call JsBeautify()<cr>
+autocmd FileType json noremap <buffer> <Leader>b :call JsBeautify()<cr>
+autocmd FileType html noremap <buffer> <Leader>b :call HtmlBeautify()<cr>
+autocmd FileType css noremap <buffer> <Leader>b :call CSSBeautify()<cr> 
+
+let g:config_Beautifier = {}
+let g:config_Beautifier['js'] = {}
+let g:config_Beautifier['js'].indent_size = '2'
 
