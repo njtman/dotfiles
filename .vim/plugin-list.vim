@@ -20,6 +20,7 @@ Plug 'vim-scripts/Zenburn'
 " Git integration
 Plug 'tpope/vim-fugitive'
 Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
 
 " Plugin Management
 Plug 'tpope/vim-pathogen'
