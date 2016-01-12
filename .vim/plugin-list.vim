@@ -7,7 +7,6 @@ Plug 'https://github.com/rking/ag.vim.git'
 " JavaScript Plugins
 Plug 'maksimr/vim-jsbeautify'
 Plug 'einars/js-beautify'
-Plug 'scrooloose/syntastic'       
 Plug 'pangloss/vim-javascript'
 
 " CSS Plugins
@@ -33,4 +32,8 @@ Plug 'tpope/vim-surround'
 
 " File utilities
 Plug 'ctrlpvim/ctrlp.vim'
+
+" Syntax checker
+Plug 'scrooloose/syntastic'
+
 
