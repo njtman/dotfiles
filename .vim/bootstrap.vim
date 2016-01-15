@@ -29,3 +29,5 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
 autocmd FileType markdown set spell
 autocmd FileType text set spell
+set nowrap
+
