@@ -32,3 +32,4 @@ autocmd FileType markdown set spell
 autocmd FileType text set spell
 set nowrap
 
+set ignorecase
