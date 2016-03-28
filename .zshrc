@@ -106,5 +106,6 @@ alias cdg='[ ! -z `git rev-parse --show-toplevel` ] && cd `git rev-parse --show-
 alias gpu='git push --set-upstream origin'
 alias glf='git log --follow -p --'
 alias gsa='git stash apply'
+alias o='open ./'
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
