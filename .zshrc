@@ -102,5 +102,6 @@ alias provprofile='security cms -D -i'
 alias t='take'
 alias rmd='rm -rf'
 alias randompassword='date +%s | shasum -a256 | base64 | head -c 32 ; echo'
+alias cdg='[ ! -z `git rev-parse --show-toplevel` ] && cd `git rev-parse --show-toplevel || pwd`'
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
