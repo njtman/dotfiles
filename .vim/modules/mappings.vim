@@ -14,3 +14,4 @@ let mapleader="\<Space>"
 " <Space> + R = Shortcut to preview md files in chrome
 autocmd FileType markdown noremap <buffer> <Leader>r :!markdown % > %:r\.html & /usr/bin/open -a "/Applications/Google Chrome.app" %:r\.html<cr>
 
+autocmd FileType * noremap <buffer> <Leader>s :set spell<cr>
