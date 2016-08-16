@@ -11,6 +11,12 @@ for file in split(glob(Dot('modules/*.vim')), '\n')
   execute 'source' file
 endfor
 
+
+" Basic options
+set ruler
+set autoindent
+set visualbell
+
 " Show line numbers
 set number
 
