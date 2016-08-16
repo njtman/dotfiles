@@ -42,3 +42,5 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim'
 
+" Sensible defaults
+Plug 'tpope/vim-sensible'
