@@ -19,6 +19,7 @@ Plug 'keith/swift.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'sickill/vim-monokai'
 Plug 'vim-scripts/Zenburn'
+Plug 'lifepillar/vim-wwdc16-theme'
 
 " Git integration
 Plug 'tpope/vim-fugitive'
