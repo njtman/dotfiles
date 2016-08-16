@@ -1,5 +1,5 @@
 syntax on
 set background=dark
-colorscheme monokai
+colorscheme wwdc16 
 
 
