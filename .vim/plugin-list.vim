@@ -9,6 +9,9 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'einars/js-beautify'
 Plug 'pangloss/vim-javascript'
 
+" Swift
+Plug 'keith/swift.vim'
+
 " CSS Plugins
 " Plug 'skammer/vim-css-color'
 
