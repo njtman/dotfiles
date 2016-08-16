@@ -9,6 +9,9 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'einars/js-beautify'
 Plug 'pangloss/vim-javascript'
 
+" TypeScript Plugins
+Plug 'leafgarland/typescript-vim'
+
 " Swift
 Plug 'keith/swift.vim'
 
