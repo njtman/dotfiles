@@ -6,6 +6,6 @@ if filereadable("~/.vimrc_local")
 endif
 
 set cursorline
-set colorcolumn=80
+set colorcolumn=100
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
