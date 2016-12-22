@@ -47,3 +47,6 @@ Plug 'mtscout6/syntastic-local-eslint.vim'
 
 " Sensible defaults
 Plug 'tpope/vim-sensible'
+
+" Groovy Plugin
+Plug 'rdolgushin/groovy.vim'
