@@ -32,6 +32,8 @@ set shiftwidth=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType java setlocal shiftwidth=4 tabstop=4
+
 set expandtab
 
 autocmd FileType markdown set spell
