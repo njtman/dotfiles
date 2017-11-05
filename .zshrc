@@ -108,11 +108,12 @@ alias gpt='git push --follow-tags'
 alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
 alias provprofile='security cms -D -i'
+alias o='open ./'
+
 alias chromenosec='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --allow-file-access-from-files --user-data-dir'
 alias t='take'
 alias rmd='rm -rf'
 alias randompassword='date +%s | shasum -a256 | base64 | head -c 32 ; echo'
-alias o='open ./'
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
 
