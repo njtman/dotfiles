@@ -85,7 +85,10 @@ source $ZSH/oh-my-zsh.sh
 
 source /usr/local/opt/nvm/nvm.sh
 alias vim='nvim'
-alias v='nvim'
+alias e='vim'
+alias v='vim'
+
+# git alias
 alias gs='git status'
 alias gpp='git pull && git push'
 alias ga='git add'
