@@ -21,7 +21,7 @@ set visualbell
 set number
 
 " Enable true color support
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+set termguicolors
 
 " Initiate Pathogen
 call pathogen#infect()
