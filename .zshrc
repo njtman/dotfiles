@@ -103,6 +103,8 @@ alias gpu='git push --set-upstream origin'
 alias glf='git log --follow -p --'
 alias gsa='git stash apply'
 alias gpt='git push --follow-tags'
+
+# osx
 alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
 alias chromenosec='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --allow-file-access-from-files'
