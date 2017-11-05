@@ -42,8 +42,8 @@ Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
 
 " Syntax checker
-Plug 'mtscout6/syntastic-local-eslint.vim'
 Plug 'neomake/neomake'
+Plug 'jaawerth/neomake-local-eslint-first'
 
 " Sensible defaults
 Plug 'tpope/vim-sensible'
