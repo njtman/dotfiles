@@ -42,7 +42,6 @@ Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
 
 " Syntax checker
-Plug 'scrooloose/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim'
 
 " Sensible defaults
