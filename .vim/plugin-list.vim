@@ -43,6 +43,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 " Syntax checker
 Plug 'mtscout6/syntastic-local-eslint.vim'
+Plug 'neomake/neomake'
 
 " Sensible defaults
 Plug 'tpope/vim-sensible'
