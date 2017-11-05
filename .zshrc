@@ -116,6 +116,7 @@ alias rmd='rm -rf'
 alias randompassword='date +%s | shasum -a256 | base64 | head -c 32 ; echo'
 alias dh='screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty'
 alias dcc='docker-compose'
+alias awscli='source ~/awscli/bin/activate'
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
