@@ -34,6 +34,7 @@ Plug 'tpope/vim-pathogen'
 
 " Code formatting
 Plug 'Chiel92/vim-autoformat'
+Plug 'ntpeters/vim-better-whitespace'
 
 " String Manipulation
 Plug 'tpope/vim-surround'
