@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mobiledev/Development/adt-bundle/sdk/tools:/Users/mobiledev/Development/adt-bundle/sdk/platform-tools"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mobiledev/Development/adt-bundle/sdk/tools:/Users/mobiledev/Development/adt-bundle/sdk/platform-tools"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
