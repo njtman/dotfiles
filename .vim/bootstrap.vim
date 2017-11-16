@@ -26,7 +26,7 @@ set termguicolors
 " Initiate Pathogen
 call pathogen#infect()
 
-" Set default two space width 
+" Set default two space width
 set shiftwidth=2
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
