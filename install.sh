@@ -2,6 +2,8 @@
 
 set -e
 
+brew install neovim
+
 dotfiles=$(pwd)
 cd ~
 echo "Changed directory to home"
