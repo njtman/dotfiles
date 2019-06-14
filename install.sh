@@ -8,6 +8,7 @@ dotfiles=$(pwd)
 cd ~
 echo "Changed directory to home"
 
+mkdir -p .config/
 ln -s "$dotfiles/.vim" .config/nvim
 ln -s "$dotfiles/.zshrc" .zshrc
 
