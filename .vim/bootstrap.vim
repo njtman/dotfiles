@@ -43,3 +43,5 @@ autocmd FileType text set spell
 set nowrap
 
 set ignorecase
+
+set mouse=a
