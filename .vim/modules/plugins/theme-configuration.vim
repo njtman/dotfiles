@@ -1,5 +1,3 @@
 syntax on
 set background=dark
-colorscheme wwdc16 
-
-
+colorscheme wwdc16
