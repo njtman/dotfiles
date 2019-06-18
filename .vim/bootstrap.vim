@@ -20,9 +20,6 @@ set visualbell
 " Show line numbers
 set number
 
-" Enable true color support
-set termguicolors
-
 " Initiate Pathogen
 call pathogen#infect()
 
