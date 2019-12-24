@@ -1,6 +1,11 @@
 # ZSH config
 export ZSH=${HOME}/.oh-my-zsh
 ZSH_THEME="robbyrussell"
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+export EDITOR=/usr/local/bin/nvim
+export VISUAL=/usr/local/bin/nvim
+eval $(/usr/libexec/path_helper -s)
+autoload -U +X bashcompinit && bashcompinit
 
 # User configuration
 
