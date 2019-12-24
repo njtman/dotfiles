@@ -1,5 +1,4 @@
-# Path to your oh-my-zsh installation.
-
+# ZSH config
 ZSH_THEME="robbyrussell"
 
 # User configuration
