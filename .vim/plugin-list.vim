@@ -52,3 +52,6 @@ Plug 'tpope/vim-sensible'
 
 " Groovy Plugin
 Plug 'rdolgushin/groovy.vim'
+
+" Code syntax checker
+Plug 'sheerun/vim-polyglot'
