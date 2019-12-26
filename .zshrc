@@ -73,4 +73,3 @@ function cgf() {
         groovyc "$1".groovy && rm "$1"\$_call* && rm "$1".class
     fi
 }
-git config --global url."https://".insteadOf git://
