@@ -51,16 +51,14 @@ alias tf='terraform'
 alias dcc='docker-compose'
 alias adbp='adb shell \'pm list packages''
 alias getrsakey'ssh-keyscan'
+alias dh='screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty'
+alias awscli='source ~/awscli/bin/activate'
 
 ## unix
 alias t='take'
 alias rmd='rm -rf'
 alias ds='du -s'
 alias randompassword='date +%s | shasum -a256 | base64 | head -c 32 ; echo'
-alias dh='screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty'
-alias dcc='docker-compose'
-alias adbp='adb shell \'pm list packages''
-alias awscli='source ~/awscli/bin/activate'
 
 ## osx
 alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
