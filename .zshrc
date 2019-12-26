@@ -66,6 +66,13 @@ alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
 alias provprofile='security cms -D -i'
 alias o='open ./'
 
+# functions
+function cgf() {
+    if [ "$1" != "" ]
+    then
+        groovyc "$1".groovy && rm "$1"\$_call* && rm "$1".class
+    fi
+}
 
 git config --global url."https://".insteadOf git://
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
