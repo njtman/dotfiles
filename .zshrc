@@ -66,7 +66,6 @@ alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
 alias provprofile='security cms -D -i'
 alias o='open ./'
 
-npm set progress=false
 
 git config --global url."https://".insteadOf git://
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
