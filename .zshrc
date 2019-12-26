@@ -31,22 +31,42 @@ alias glf='git log --follow -p --'
 alias gsa='git stash apply'
 alias gpt='git push --follow-tags'
 
-# osx
-alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
-alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
-alias provprofile='security cms -D -i'
-alias o='open ./'
+## folders
+alias ~p='cd ~/projects'
+alias ~kh='cd ~/projects/conferences/hashicorp'
+alias dotfiles='cd ~/projects/personal/dotfiles'
+alias dropbox='~/Dropbox'
+alias agenda='/Volumes/GoogleDrive/My\ Drive/agenda/2019'
+alias agendap='~/Dropbox/agenda/'
+alias ~m='cd ~/projects/personal'
+alias cjf='groovyc jenkinsfile && rm jenkinsfile\$_run*  && rm jenkinsfile\$_*.class'
+alias dh='screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty'
 
+## tools
 alias chromenosec='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --allow-file-access-from-files --user-data-dir'
+alias cjf='groovyc jenkinsfile && rm jenkinsfile\$_* && rm jenkinsfile.class'
+alias kb='kubectl'
+alias kbac='rm ~/.kube/*.cache'
+alias tf='terraform'
+alias dcc='docker-compose'
+alias adbp='adb shell \'pm list packages''
+alias getrsakey'ssh-keyscan'
+
+## unix
 alias t='take'
 alias rmd='rm -rf'
+alias ds='du -s'
 alias randompassword='date +%s | shasum -a256 | base64 | head -c 32 ; echo'
 alias dh='screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty'
 alias dcc='docker-compose'
 alias adbp='adb shell \'pm list packages''
 alias awscli='source ~/awscli/bin/activate'
 
-test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+## osx
+alias showhf='defaults write com.apple.finder AppleShowAllFiles YES'
+alias hidehf='defaults write com.apple.finder AppleShowAllFiles NO'
+alias provprofile='security cms -D -i'
+alias o='open ./'
 
 npm set progress=false
 
