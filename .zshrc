@@ -9,11 +9,13 @@ autoload -U +X bashcompinit && bashcompinit
 
 source $ZSH/oh-my-zsh.sh
 
+# vim
 alias vim='nvim'
 alias e='vim'
 alias v='vim'
 
-# git alias
+# aliases
+## git
 alias gs='git status'
 alias gpp='git pull && git push'
 alias ga='git add'
