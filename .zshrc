@@ -2,7 +2,6 @@
 export ZSH=${HOME}/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
-eval $(/usr/libexec/path_helper -s)
 export EDITOR=/usr/bin/nvim
 export VISUAL=/usr/bin/nvim
 autoload -U +X bashcompinit && bashcompinit
