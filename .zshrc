@@ -72,3 +72,29 @@ function cgf() {
         groovyc "$1".groovy && rm "$1"\$_call* && rm "$1".class
     fi
 }
+function a()
+{
+    local year=$(date +%Y)
+    local month=$(date +%m)
+    local month_name=$(date +%B)
+    local day=$(date +%d)
+    local day_name=$(date +%A)
+    local agenda_template=$(cat <<MARKDOWN
+# ${day_name} ${month_name} ${day} ${year}
+
+## TODO
+
+## Waiting for
+
+## Meetings
+
+MARKDOWN
+)
+    echo $agenda_template
+    local agenda_path="${HOME}/projects/beeswax/agenda/${year}"
+    local file="${agenda_path}/${month}.${day}.md"
+    if [ ! -f "${file}" ]; then
+      echo ${agenda_template} > ${file}
+    fi
+    e "${file}"
+}
