@@ -2,8 +2,8 @@
 export ZSH=${HOME}/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
-export EDITOR=/usr/bin/nvim
-export VISUAL=/usr/bin/nvim
+export EDITOR=/usr/local/bin/nvim
+export VISUAL=/usr/local/bin/nvim
 autoload -U +X bashcompinit && bashcompinit
 
 source $ZSH/oh-my-zsh.sh
